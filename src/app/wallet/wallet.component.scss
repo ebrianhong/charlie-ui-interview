@@ -1,0 +1,12 @@
+.cc-container {
+    display: flex;
+    overflow: auto;
+
+    .credit-card {
+        margin-left: 1.6rem;
+    }
+
+    &:last-child {
+        margin-right: 1.6rem;
+    }
+}

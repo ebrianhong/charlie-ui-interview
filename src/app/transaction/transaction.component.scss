@@ -1,0 +1,44 @@
+.transaction-container {
+    display: flex;
+    align-items: center;
+    height: 4.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.transaction-logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.2rem;
+
+    img {
+        position: absolute;
+    }
+}
+
+.transaction-middle {
+    width: 100%;
+}
+
+.transaction-middle p {
+    font-size: 2rem;
+    font-weight: 400;
+
+    &:last-of-type {
+        font-size: 1.5rem;
+        color: #7A7A7A;
+    }
+}
+
+.transaction-amount {
+    font-size: 2rem;
+}
+
+.credit {
+    color: #18AA15;
+}
+
+.debit {
+    color: #FE263F;
+}

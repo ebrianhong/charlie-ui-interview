@@ -1,0 +1,32 @@
+#buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 13.9rem;
+}
+
+.button-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    p {
+        padding-top: 0.8rem;
+        font-size: 1.6rem;
+        color: #366AB2;
+    }
+}
+

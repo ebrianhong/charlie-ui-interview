@@ -1,0 +1,41 @@
+
+
+.cc-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28.8rem;
+    height: 18rem;
+    border-radius: 1.6rem;
+    background-image: linear-gradient(111deg, #4B4F5B, #6B7183);
+
+    &.blue {
+        background-image: linear-gradient(111deg, #407288, #189BD4);
+    }
+}
+
+.cc-amount {
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 2.4rem 0 0 1.6rem;
+}
+
+.cc-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0.8rem 0.8rem 1.6rem;
+}
+
+.cc-number {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.cc-logo {
+    width: 8.4rem;
+}
+
